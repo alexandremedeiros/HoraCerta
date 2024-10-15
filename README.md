@@ -43,8 +43,7 @@ O contrato automatiza o processo de registro de professores, contabiliza horas t
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/hora-certa.git
-cd hora-certa
+git clone git@github.com:alexandremedeiros/HoraCerta.git
 ```
 
 2. Instale as dependências:
@@ -56,14 +55,9 @@ npm install
 3. Compile os contratos:
 
 ```bash
-npx hardhat compile
+npm run compile
 ```
 
-4. Execute os testes:
-
-```bash
-npx hardhat test
-```
 
 ### Deploy na Rede
 
@@ -78,34 +72,11 @@ API_KEY=<sua_chave_etherscan>
 2. Execute o deploy:
 
 ```bash
-npx hardhat run scripts/deploy.js --network sepolia
+npm run deploy:prod
 ```
-
-## Interação com o Contrato
-
-Para interagir com o contrato após o deploy, utilize o script abaixo:
-
-```bash
-npx hardhat console --network sepolia
-```
-
-Exemplo para registrar um professor:
-
-```js
-const horaCerta = await ethers.getContractAt("HoraCerta", "<endereço do contrato>");
-await horaCerta.registrarProfessor("<endereço do professor>", { /* dados do professor */ });
-```
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 ## Contato
 
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- Email: [seuemail@exemplo.com](mailto:seuemail@exemplo.com)
-# HoraCerta
+- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/alexandre-medeiross/)
