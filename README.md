@@ -12,7 +12,6 @@ O contrato automatiza o processo de registro de professores, contabiliza horas t
 - **Registro de Professores**: Professores podem ser registrados com suas informações, incluindo horas trabalhadas e valor da hora-aula.
 - **Pagamento em HCC**: Professores são pagos automaticamente com base nas horas registradas, e o valor é transferido em tokens HCC.
 - **Emissão de Tokens (Minting)**: O contrato permite a criação de novos tokens HCC para serem distribuídos entre os professores.
-- **Controle de Royalties**: Com um percentual ajustável, o contrato permite a cobrança de royalties sobre transações de NFTs relacionadas.
 
 ## Contratos Principais
 
