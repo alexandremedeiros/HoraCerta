@@ -78,4 +78,4 @@ npm run deploy:prod
 
 Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/alexandre-medeiross/)
+- LinkedIn: [Alexandre de Medeiros](https://www.linkedin.com/in/alexandre-medeiross/)
